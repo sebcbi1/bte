@@ -1,0 +1,15 @@
+	<table>
+		%block table%
+		<tr>
+			<td>%table.col1%</td><td>%table.col2%</td>
+		</tr>
+		%endblock table%
+	</table>
+
+	<table>
+		%block table2%
+		<tr>
+			<td%block bigger% colspan="%table2.bigger%"%endblock bigger%>%table2.col1%</td>%block col2%<td>%table2.col2%</td>%endblock col2%
+		</tr>
+		%endblock table2%
+	</table>

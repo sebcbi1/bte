@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{lang}">
+<head>
+	<meta charset="utf-8" />
+	<title>{head.title}</title>
+	<meta name="description" content="{head.description}" />
+{begin CSS}<link rel="stylesheet" href="/css/{CSS.filename}" />{end CSS}
+{begin favicon}<link rel="shortcut icon" href="{favicon}" />{end favicon}
+</head>
+<body>
+{include custombody.html}
+{include {table_template}}
+</body>
+</html>

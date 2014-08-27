@@ -1,0 +1,15 @@
+	<table>
+		{begin table}
+		<tr>
+			<td>{table.col1}</td><td>{table.col2}</td>
+		</tr>
+		{end table}
+	</table>
+
+	<table>
+		{begin table2}
+		<tr>
+			<td{begin bigger} colspan="{table2.bigger}"{end bigger}>{table2.col1}</td>{begin col2}<td>{table2.col2}</td>{end col2}
+		</tr>
+		{end table2}
+	</table>

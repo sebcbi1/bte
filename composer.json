@@ -1,0 +1,22 @@
+{
+    "name": "sugiphp/bte",
+    "type": "library",
+    "description": "Better Template Engine",
+    "keywords": ["templates"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sébastien LEBEAU",
+            "email": "sebcbi1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SugiPHP\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
